@@ -15,6 +15,7 @@ const PrivateRoute = ({ children, ...rest }) => {
           justifyContent: "center",
           width: "100vw",
           height: "100vh",
+          // margin: '10px'
         }}
       >
         <CircularProgress color="inherit" />

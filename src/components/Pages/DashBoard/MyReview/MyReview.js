@@ -10,7 +10,7 @@ const MyReview = () => {
   const [ratevalue, setValue] = React.useState(4);
   const { user, token } = useAuth();
   const [success, setSuccess] = useState(false);
-
+// const [start, setStart] = useState(true);
   const { register, handleSubmit } = useForm();
   const onSubmit = (data) => {
     data.rating = ratevalue;
